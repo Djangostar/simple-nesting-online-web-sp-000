@@ -82,7 +82,7 @@ def adding_matz
      }
      programmer_hash.merge({:yukihiro_matsumoto => {
        :known_for => "Ruby",
-       :languages => ["LISP", "C"]}).unshift
+       :languages => ["LISP", "C"]}.unshift)
 end
 
 def changing_alan
